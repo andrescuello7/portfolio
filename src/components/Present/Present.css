@@ -1,0 +1,57 @@
+.carrucel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4%;
+}
+.CarrucelWidth{
+    width: 30%;
+}
+.CarrucelText{
+    margin-top: 6%;
+    font-size: 3rem;
+    width: 34%;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+.carrucelImage{
+    width: 500px;
+    height: 100%;
+}
+.buttonPdf{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+@media (max-Width: 780px){
+    .buttonPdf{
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-bottom: 0px;
+    }
+    .carrucel{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 6%;
+    }
+    .CarrucelWidth{
+        width: 90%;
+    }
+    .CarrucelText{
+        margin-top: 4%;
+        font-size: 30px;
+        width: 80%;
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    .carrucelImage{
+        width: 400px;
+        height: 100%;
+    }
+}

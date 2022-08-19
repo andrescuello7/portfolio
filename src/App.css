@@ -1,0 +1,112 @@
+.body{
+    background-color: rgba(14, 13, 13, 0.863);
+    color: rgb(255, 255, 255);
+}
+.navbarHome{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.navbarTitle{
+    font-size: 20px;
+    color: rgb(18, 18, 19);
+}
+.navbarTitle:hover{
+    color: rgb(2, 98, 207);
+}
+.homePadding{
+    padding: 0%;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+.contactForm{
+    margin-top: 3%;
+    width: 40%;
+}
+@media (max-Width: 780px){
+    .contactForm{
+        margin-top: 3%;
+        width: 100%;
+    }
+    .contact{
+        margin-top: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dateContact{
+        margin-top: 20%;
+        margin-bottom: 30%;
+    }
+}
+
+
+.cover-page{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cover-page-interno{
+    margin-top: 30%;
+    width: 40%;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footerInterno {
+    border-top: 1px #2e2e2e2f solid;
+    margin-top: auto;
+    background: #f0efeff0;
+    padding: 1px 0%;
+    color: #443d3d;
+}
+.text-of-description{
+    font-size: 15px;
+    font-family: system-ui;
+}
+.text-titular{
+    font-family: system-ui;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+.icon-favicon{
+    margin-left: 1%;
+    height: 40px;
+    width: 40px;
+    background: #333435;
+    color: rgb(245, 245, 255);
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.icon-favicon:hover{
+    background: #0673bb;
+}
+
+@media  (max-Width: 780px) {
+    .cover-page{
+        width: 94%;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .cover-page-interno{
+        width: 100%;
+    }
+}
