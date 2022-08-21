@@ -33,7 +33,7 @@ const Present = () => {
                     </div>
                 </div>
                 <div className="social">
-                    <Button variant='outline-primary' className='buttonPdf' href="curriculumin.pdf" download="curriculumin.pdf">
+                    <Button variant='outline-primary' className='buttonPdf' href="curriculumviate.pdf" download="curriculumviate.pdf">
                         <b>
                             Curriculum PDF
                         </b>
