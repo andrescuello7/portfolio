@@ -9,21 +9,38 @@
 }
 .CarrucelText{
     margin-top: 6%;
-    font-size: 3rem;
+    font-size: 4rem;
     width: 34%;
     text-align: center;
-    font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Tilt Warp', cursive;
+    color: rgb(60, 60, 60);
 }
 .carrucelImage{
     width: 500px;
     height: 100%;
 }
+.aboutDescription{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.aboutDescription-2{
+    font-size: 0.7rem;
+    font-weight: 100;
+    color: gray;
+}
 .buttonPdf{
+    background-color: rgb(60, 60, 60);
+    color: white;
     width: 200px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    font-size: 15px;
+    border: none;
+    padding: 6px;
     margin-bottom: 5px;
+    box-shadow: 10px 10px 10px rgba(60, 60, 60, 0.404);
 }
 
 @media (max-Width: 780px){

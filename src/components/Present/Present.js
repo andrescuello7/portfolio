@@ -14,36 +14,29 @@ const Present = () => {
     }, [])
     const componentDidMount = () => {
         const myElement = document.querySelector('#myElement')
-        init(myElement, { showCursor: false, strings: ['Mobile', 'Web'] })
+        init(myElement, { showCursor: true, strings: ['Backend', 'Frontend', 'Mobile'] })
     }
-    const {
-        btnBorder,
-        borderButton,
-        setClickme,
-        clickme } = UseCss();
     return (
         <div className="carrucel">
             <div className="CarrucelText">
-                <div>
-                    <div>
-                        I'm Andres Cuello
+                <p className='mx-5 text-start aboutDescription'>
+                    Hello_
+                </p>
+                <div className='px-5'>
+                    <div className='d-flex'>
+                        <p>I'm </p> <p className="px-2 text-primary" id="myElement"></p>
                     </div>
                     <div>
-                        Full Stack <i className="text-primary" id="myElement"></i>
+                        <p className='mx-0 text-start aboutDescription-2'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                     </div>
                 </div>
-                <div className="social">
-                    <Button variant='outline-primary' className='buttonPdf' href="curriculumviate.pdf" download="curriculumviate.pdf">
-                        <b>
-                            Curriculum PDF
-                        </b>
-                    </Button>
-                    <a href="https://github.com/andrescuello7" className='mx-2'>
-                        <span className="fab fa-github icon-favicon"></span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/andres-cuello-a9a1b11bb/">
-                        <span className="fab fa-linkedin icon-favicon"></span>
-                    </a>
+                <div className="social mt-5">
+                    <button className='buttonPdf' href="curriculumviate.pdf" download="curriculumviate.pdf">
+                        Curriculum
+                    </button>
+                    <button href="https://github.com/andrescuello7" className='mx-2 buttonPdf'>
+                        GitHub
+                    </button>
                 </div>
             </div>
             <div className="CarrucelWidth">
