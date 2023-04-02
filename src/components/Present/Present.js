@@ -27,7 +27,7 @@ const Present = () => {
                         <p>I'm </p> <p className="px-2 text-primary" id="myElement"></p>
                     </div>
                     <div>
-                        <p className='mx-0 text-start aboutDescription-2'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p className='mx-0 text-start aboutDescription-2'> Passionate about web development. I spend my free time learning about technology and organization.</p>
                     </div>
                 </div>
                 <div className="social mt-5">
