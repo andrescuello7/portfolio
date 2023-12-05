@@ -31,7 +31,7 @@ const About = () => {
                             <div>I</div>
                             <div id="Element"></div>
                         </h2>
-                        <div>Hello, I am a Full Stack Developer, I have been a Developer since April 2020, I have my Rolling Code School studies, they taught me the basics for development, today I worked in Silentium Apps as a Mobile developer and in Rolling Code as a mentor and teacher in web and backend development.</div>
+                        <div>Backend Developer handling in Typescript - NestJS, Python - FastApi, Java - Spring Boot I am a committed and passionate person in the development process, I am interested in continuing to be part of projects that pose a challenge from an MVP, maintenance or migration of another project.</div>
                     </div>
                 </div>
             </div>
