@@ -9,21 +9,15 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm install
-
 # Copy the rest of the application code
 COPY . .
-
 # Build the React app
 RUN npm run build
-
 # Use a smaller image for serving the static content
 FROM nginx:alpine
-
 # Copy the build output from the build image to the nginx web root directory
 COPY --from=build /app/build /usr/share/nginx/html
-
 # Expose the port that the nginx server will listen on (default is 80)
 EXPOSE 80
-
 # Command to start nginx
 CMD ["nginx", "-g", "daemon off;"]
